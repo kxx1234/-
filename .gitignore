@@ -1,0 +1,35 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies and virtual environments
+node_modules/
+.venv/
+venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyc.*
+.pytest_cache/
+
+# Build output and logs
+dist/
+build/
+*.log
+
+# Keep the deployable database in database/ only
+backend/law_game.db
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Generated archives and temporary documents
+*.zip
+*.rar
+*.7z
+~$*
